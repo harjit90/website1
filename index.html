@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Danias</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />-->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    
+    <!-- Navbar section --> 
+    <header class="headerWrapper">
+        <nav class="navbar navbar-expand-lg headerScrolled">
+            <div class="container">
+                <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" class="img-fluid" >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav  menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#featuredProperties">Property</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#capital&Finance">Capital & Finance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+              </div>
+              <a href="#" class="greenBtn">Contact</a>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Navbar section exit -->
+
+    <!-- Banner section --> 
+    
+    <section id="home" class="homeWrapper">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="homeBanner homeBanner1">
+                    <div class="homeBannerText text-center">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h1>We Buy, Build & Lease core inner City Industrial assets in Sydney, Australia</h1>
+                        <a href="#" class="btn secondaryBtn text-uppercase mt-4">Explore Our Projects</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="homeBanner homeBanner2">
+                    <div class="homeBannerText text-center">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h1>We Buy, Build & Lease core inner City Industrial assets in Sydney, Australia</h1>
+                        <a href="#" class="btn secondaryBtn text-uppercase mt-4">Explore Our Projects</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+                <!--<i class="fal fa-arrow-circle-left"></i>-->
+            </span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+                <!--<i class="fal fa-arrow-circle-right"></i>-->
+            </span>
+            <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- Banner section exit -->
+    
+    <!-- Featured Properties section --> 
+    
+    <section id="featuredProperties" class="featuredPropertiesWrapper wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="sectionHeading mb-5">
+                        <h2>Featured Properties</h2>
+                        <p>Must see properties</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="searchBox d-inline-block w-100 position-relative mb-4">
+                        <h4>Search Properties</h4>
+                        <input type="text" class="form-control rounded-pill" placeholder="Enter Location or Postal Code">
+                        <button class="greenBtn position-absolute bottom-0 right-0">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <div class="card propertyItem">
+                        <div class="card-header">
+                            <img src="./images/property-1.jpg" />
+                        </div>
+                        <div class="card-body">
+                            <h4><a href="#">Property Name</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="textLink">View Details <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <div class="card propertyItem">
+                        <div class="card-header">
+                            <img src="./images/property-2.jpg" />
+                        </div>
+                        <div class="card-body">
+                            <h4><a href="#">Property Name</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="textLink">View Details <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <div class="card propertyItem">
+                        <div class="card-header">
+                            <img src="./images/property-3.jpg" />
+                        </div>
+                        <div class="card-body">
+                            <h4><a href="#">Property Name</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="textLink">View Details <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="text-center"><a href="#" class="primaryBtn">View all properties &nbsp;<i class="fas fa-chevron-right"></i></a></div>
+    </section>
+
+    <!-- Featured Properties exit -->
+
+    <!-- Capital & Finance section --> 
+    
+    <section id="capital&Finance" class="capitalFinanceWrapper wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 sm-12 col-sm-12">
+                    <div class="sectionHeading mb-5">
+                        <h2>Capital & Finance</h2>
+                        <p>Featured Capital</p>
+                    </div>
+                </div>
+                <div class="col-md-6 sm-12 col-sm-12">
+                    <div class="capitalFinanceBtn d-flex justify-content-end pb-4"><a href="#" class="primaryBtn">View all</a></div>
+                </div>
+                <div class="col-md-4 sm-4 col-sm-12">
+                    <div class="card capitalItem">
+                        <div class="card-header p-0 bg-transparent">
+                            <img src="./images/capital-1.jpg"/>
+                        </div>
+                        <ul class="card-body mb-0">    
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Bedrooms</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Receptions</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Bathrooms</p>
+                            </li>
+                        </ul>
+                        <div class="card-footer p-3">
+                            <h4><a href="#">Capital Name Here</a></h4>
+                            <p>2 Bedrooms House in city name here</p>
+                            <h5 class="capitalPrice"><strong>$210,000</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 sm-4 col-sm-12">
+                    <div class="card capitalItem">
+                        <div class="card-header p-0 bg-transparent">
+                            <img src="./images/capital-2.jpg"/>
+                        </div>
+                        <ul class="card-body mb-0">    
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Bedrooms</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Receptions</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Bathrooms</p>
+                            </li>
+                        </ul>
+                        <div class="card-footer p-3">
+                            <h4><a href="#">Capital Name Here</a></h4>
+                            <p>2 Bedrooms House in city name here</p>
+                            <h5 class="capitalPrice"><strong>$210,000</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 sm-4 col-sm-12">
+                    <div class="card capitalItem">
+                        <div class="card-header p-0 bg-transparent">
+                            <img src="./images/capital-3.jpg"/>
+                        </div>
+                        <ul class="card-body mb-0">    
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Bedrooms</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Receptions</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-arrow-alt-circle-right"></i><strong> 2</strong></span>
+                                <p class="mb-0">Bathrooms</p>
+                            </li>
+                        </ul>
+                        <div class="card-footer p-3">
+                            <h4><a href="#">Capital Name Here</a></h4>
+                            <p>2 Bedrooms House in city name here</p>
+                            <h5 class="capitalPrice"><strong>$210,000</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Capital & Finance section Exit -->
+
+    <!-- About section --> 
+    
+    <section id="about" class="aboutWrapper wrapper">
+        <!--<div class="aboutBgImg"><img src="images/about-us-img.jpg"></div>-->
+        <div class="aboutUsContentWrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6"></div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="aboutUsContent">
+                            <div class="sectionHeading mb-5">
+                                <h2>About Us</h2>
+                                <p>Who We Are</p>
+                            </div>
+                            <p class="aboutBoldText">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                            </p>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.
+                            </p>
+                            <a href="#" class="secondaryBtn mt-4">Know more about Us &nbsp;<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Exit  -->
+
+    <!-- Contact section  -->
+
+    <section id="contact" class="contactUs wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="sectionHeading mb-5">
+                        <span>
+                            <h2>Get In Touch</h2>
+                            <p>Keep Upto Date</p>
+                        </span>
+                    </div>
+                    <form class="contactForm">
+                        <div class="mb-3">
+                            <input type="text" id="name" name="name" placeholder="First Name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="email" name="email" placeholder="Last Name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="subject" name="subject" placeholder="Your Email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <textarea type="text" id="message" name="message" placeholder="Your Message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+                        <button type="submit" value="submit" class="primaryBtn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6 col-sm-6 order-sm-1">
+                    <div class="contactImg"><span><img src="./images/get-in-touch-img.png"></span></div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer section --> 
+
+    <section id="contact" class="footerWrapper wrapper pb-0">
+        <div class="container-fluid">
+            <div class="row">
+                <h4 class="mb-4">Properties for sale in</h4>
+                <div class="col-md-3 col-sm-12 mb-4">
+                    <ul class="footerPropertyMenu">
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                    <ul class="footerPropertyMenu">
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                    <ul class="footerPropertyMenu">
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                        <li>
+                            <a href="#">Property Name, City</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                    <div class="footerAddress text-center">
+                        <h4>Contact Us</h4>
+                        <h3>123 456 7890</h3>
+                        <a href="#">property@danias.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerLogo">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <span><img src="images/footer-logo.png"></span>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <ul class="socialNetwork p-0 ">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="copyrightSection">
+                <p class="m-0 float-start">Copyright © <a href="#">Danias</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms & Condition</a></p>
+                <p class="m-0 d-flex justify-content-end">Design by <a href="#"> &nbsp;Harjit Mehmi</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS / JQuery Local Links -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+    
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+        

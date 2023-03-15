@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* Responsive */
+
+@media (max-width: 1199.5px) {
+
+    
+
+}
+
+@media (max-width:991px) {
+
+    
+    .wrapper {
+        padding:5rem 1rem;
+    }
+    .homeWrapper .homeBanner .homeBannerText {
+        top: 20%;
+    }
+
+}
+
+@media (max-width: 767px) {
+ 
+    .homeBannerText h1 {
+        font-size: 2rem;
+    }
+    .homeWrapper .homeBanner .homeBannerText {
+        top: 20%;
+    }
+    .navbar a.greenBtn {
+        margin-top: 1rem;
+    }
+    .wrapper {
+        padding:5rem 1rem;
+    }
+    .contactImg span::after {
+        width: 320px;
+        height:300px;
+        top: 35%;
+    } 
+    .contactImg {
+        padding-top:2rem;
+    }
+    .aboutWrapper::before {
+        background-image: unset;
+    }
+    .capitalFinanceBtn{
+        justify-content: left !important;
+    }
+    .copyrightSection p:nth-child(2) {
+        justify-content: left !important;
+        display:inline-block !important;
+    }
+    .copyrightSection p {
+        font-size:0.9rem;
+    }
+    .footerLogo span img {
+        margin-bottom:1.5rem
+    }
+    .footerWrapper .socialNetwork {
+        justify-content:left;
+    } 
+
+}
+
+@media (max-width: 360px) {
+
+   
+
+}
+
